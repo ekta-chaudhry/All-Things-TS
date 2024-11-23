@@ -1,4 +1,5 @@
 "use strict";
-let x = 1;
-x = "text";
-console.log(1);
+function sum(firstNum, secondNum) {
+    return firstNum + secondNum;
+}
+console.log(sum(3, 4));
